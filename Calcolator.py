@@ -4,7 +4,7 @@ import re
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="Professional Calculator", page_icon=":abacus:", layout="centered")
+st.set_page_config(page_title="Kashi Calculator", page_icon=":abacus:", layout="centered")
 
 
 if "expr" not in st.session_state:
