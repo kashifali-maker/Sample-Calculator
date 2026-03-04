@@ -77,7 +77,7 @@ def evaluate_expression() -> None:
     st.session_state.just_evaluated = True
 
 
-st.title("Professional Calculator")
+st.title("Kashi Calculator")
 st.caption("Use buttons or keyboard. Press Enter for result.")
 
 input_value = st.text_input(
